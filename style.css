@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--blue: #15202b;
+}
+
+body {
+	/* background-color: var(--blue); */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+img {
+	border-radius: 12%;
+}
+/* iframe {
+	border: 2px solid #0e1a27;
+} */
+div {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+h1 {
+	font-size: 3rem;
+	text-decoration: underline;
+}
